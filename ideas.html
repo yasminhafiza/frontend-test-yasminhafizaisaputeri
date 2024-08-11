@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="media/logo.png" type="image/x-icon">
+    <!-- Move jQuery and Bootstrap JS before custom script -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js" defer></script>
+    <title>Ideas</title>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <img src="media/logo.png" alt="Logo" class="logo">
+            <nav class="menu">
+                <ul>
+                    <li><a href="work.html">Work</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="ideas.html">Ideas</a></li>
+                    <li><a href="careers.html">Careers</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="banner">
+        <div class="banner-image">
+            <img src="media/banner.jpg" alt="Banner">
+        </div>
+        <div class="banner-text">
+            <h1 id="banner-title">Ideas</h1>
+            <p id="banner-description">Where all our great things begin</p>
+        </div>
+    </div>
+    <div class="filter-bar">
+        <div>
+            Showing 1 - 10 of 100
+        </div>
+        <div>
+            Show per page: 
+            <div class="dropdown">
+                <button class="btn dropdown-toggle" type="button" id="itemsPerPageDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    10 
+                </button>
+                <div class="dropdown-menu" aria-labelledby="itemsPerPageDropdown">
+                    <a class="dropdown-item" href="#" data-value="10">10</a>
+                    <a class="dropdown-item" href="#" data-value="20">20</a>
+                    <a class="dropdown-item" href="#" data-value="50">50</a>
+                </div>
+            </div>
+            Sort by: 
+            <div class="dropdown">
+                <button class="btn dropdown-toggle" type="button" id="sortByDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Newest 
+                </button>
+                <div class="dropdown-menu" aria-labelledby="sortByDropdown">
+                    <a class="dropdown-item" href="#" data-value="newest">Newest</a>
+                    <a class="dropdown-item" href="#" data-value="oldest">Oldest</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <main>
+        <!-- Card Start -->
+        <div id="cards-container" class="container mt-4">
+            <div class="row">
+                <div class="col-lg-3 mb-4">
+                    <div class="card mx-0.8">
+                        <img src="media/item1.jpg" class="card-img-top" alt="Berita Image 1">
+                        <div class="card-body">
+                            <p class="card-date">10 AGUSTUS 2024</p>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 mb-4">
+                    <div class="card mx-0.8">
+                        <img src="media/item2.jpg" class="card-img-top" alt="Berita Image 2">
+                        <div class="card-body">
+                            <p class="card-date">9 AGUSTUS 2024</p>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 mb-4">
+                    <div class="card mx-0.8">
+                        <img src="media/item1.jpg" class="card-img-top" alt="Berita Image 1">
+                        <div class="card-body">
+                            <p class="card-date">10 AGUSTUS 2024</p>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 mb-4">
+                    <div class="card mx-0.8">
+                        <img src="media/item2.jpg" class="card-img-top" alt="Berita Image 2">
+                        <div class="card-body">
+                            <p class="card-date">9 AGUSTUS 2024</p>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 mb-4">
+                    <div class="card mx-0.8">
+                        <img src="media/item1.jpg" class="card-img-top" alt="Berita Image 1">
+                        <div class="card-body">
+                            <p class="card-date">10 AGUSTUS 2024</p>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 mb-4">
+                    <div class="card mx-0.8">
+                        <img src="media/item2.jpg" class="card-img-top" alt="Berita Image 2">
+                        <div class="card-body">
+                            <p class="card-date">9 AGUSTUS 2024</p>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 mb-4">
+                    <div class="card mx-0.8">
+                        <img src="media/item1.jpg" class="card-img-top" alt="Berita Image 1">
+                        <div class="card-body">
+                            <p class="card-date">10 AGUSTUS 2024</p>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 mb-4">
+                    <div class="card mx-0.8">
+                        <img src="media/item2.jpg" class="card-img-top" alt="Berita Image 2">
+                        <div class="card-body">
+                            <p class="card-date">9 AGUSTUS 2024</p>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 mb-4">
+                    <div class="card mx-0.8">
+                        <img src="media/item1.jpg" class="card-img-top" alt="Berita Image 1">
+                        <div class="card-body">
+                            <p class="card-date">10 AGUSTUS 2024</p>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 mb-4">
+                    <div class="card mx-0.8">
+                        <img src="media/item2.jpg" class="card-img-top" alt="Berita Image 2">
+                        <div class="card-body">
+                            <p class="card-date">9 AGUSTUS 2024</p>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 mb-4">
+                    <div class="card mx-0.8">
+                        <img src="media/item1.jpg" class="card-img-top" alt="Berita Image 1">
+                        <div class="card-body">
+                            <p class="card-date">10 AGUSTUS 2024</p>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 mb-4">
+                    <div class="card mx-0.8">
+                        <img src="media/item2.jpg" class="card-img-top" alt="Berita Image 2">
+                        <div class="card-body">
+                            <p class="card-date">9 AGUSTUS 2024</p>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- card end -->
+        <div class="pagination justify-content-center">
+            <ul class="pagination-list">
+                <!-- Previous button -->
+                <li class="page-item page-item-prev">
+                    <a href="#" class="page-link">«</a>
+                </li>
+                <!-- Page numbers -->
+                <li class="page-item active">
+                    <a href="#" class="page-link">1</a>
+                </li>
+                <li class="page-item">
+                    <a href="#" class="page-link">2</a>
+                </li>
+                <li class="page-item">
+                    <a href="#" class="page-link">3</a>
+                </li>
+                <!-- More button if needed -->
+                <li class="page-item">
+                    <a href="#" class="page-link">...</a>
+                </li>
+                <!-- Next button -->
+                <li class="page-item page-item-next">
+                    <a href="#" class="page-link">»</a>
+                </li>
+            </ul>
+        </div>
+    </main>
+    <script>
+ // Ambil semua elemen dengan class 'page-link'
+const pageLinks = document.querySelectorAll('.pagination .page-link');
+
+// Fungsi untuk menangani klik pada link pagination
+function handlePageClick(event) {
+    event.preventDefault(); // Mencegah perilaku default link
+
+    // Ambil nomor halaman dari teks link
+    const pageNumber = event.target.textContent;
+
+    // Logika untuk menangani nomor halaman yang dipilih
+    // Misalnya, bisa melakukan fetch data untuk halaman yang sesuai atau
+    // mengubah tampilan konten sesuai halaman yang dipilih
+
+    console.log(`Navigating to page ${pageNumber}`);
+
+    // Contoh navigasi: update halaman aktif
+    updateActivePage(pageNumber);
+}
+
+// Menambahkan event listener untuk setiap link
+pageLinks.forEach(link => {
+    link.addEventListener('click', handlePageClick);
+});
+
+// Fungsi untuk memperbarui halaman aktif
+function updateActivePage(pageNumber) {
+    // Hapus class 'active' dari halaman yang sebelumnya aktif
+    document.querySelector('.pagination .page-item.active').classList.remove('active');
+
+    // Tambahkan class 'active' pada halaman yang baru dipilih
+    const newActivePage = [...document.querySelectorAll('.pagination .page-item')]
+        .find(item => item.textContent.trim() === pageNumber);
+
+    if (newActivePage) {
+        newActivePage.classList.add('active');
+    }
+}
+
+    </script>
+    
+    
+    
+</body>
+</html>
